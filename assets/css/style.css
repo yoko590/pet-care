@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/cat-kitten.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav div ul li a:hover{
+    font-size: 18px;
+}
+
+main div.card{
+    background-color: rgba(128, 128, 128, 0.24);
+
+}
+
