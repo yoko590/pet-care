@@ -3,7 +3,36 @@
     margin: 0;
 }
 
-main section #section1{
-    border: solid 2px #000000;
-    height: 150px;
+/* Main area */
+#about{
+    height: 100%;
+    padding: 15%;
+    background-image: url(../img/home_about_img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#hotel{
+    border: dotted 2px #000000;
+    height: 400px;
+    padding: 10%;
+}
+
+#service{
+    border: dotted 2px #000000;
+    height: 400px;
+    padding: 10%;
+}
+
+#shop{
+    border: dotted 2px #000000;
+    height: 400px;
+    padding: 10%;
+}
+
+#trivia{
+    border: dotted 2px #000000;
+    height: 400px;
+    padding: 10%;
 }

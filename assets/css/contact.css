@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+#showcase{
+    height: 600px;
+    background-image: url(../img/phone_img.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+
+#showcase p{
+    padding-top:250px;
+
+}
+
+main #contents{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main h3{
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bold;
+    font-size: 23px;
+}

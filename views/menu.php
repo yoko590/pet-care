@@ -7,7 +7,6 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-<link rel="stylesheet" href="../assets/css/home.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
@@ -29,14 +28,14 @@
                 <?php
                    session_start();
                    if(!$_SESSION){
-                      echo "<a href='#' class='nav-link text-white'>Hello Guest!</a>";
+                      echo "<span class='nav-link text-white'>Hello Guest!</span>";
                    }else{
                       echo "<a href='../views/profile.php' class='nav-link text-white'>Hello " . $_SESSION['username'] . "!</a>";
                    }
                 ?>
             </li>
             <li class="nav-item mr-3"><a href="../views/index.php" class="nav-link">Login</a></li>
-            <li class="nav-item mr-3"><a href="../views/register.php" class="nav-link">Register</a></li>
+            <li class="nav-item mr-3"><a href="../views/register.php" class="nav-link ">Register</a></li>
             <li class="nav-item mr-5"><a href="../views/confirmaton.php" class="nav-link"><i class="fas fa-shopping-cart btn btn-outline-light"style="font-size:18px;"></i></a></li>
              <li class="nav-item mr-3"><a href="../actions/logout.php" class="nav-link text-danger">Log out</a></li>
 

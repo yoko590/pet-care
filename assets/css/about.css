@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+main #title{
+    background-color: rgba(255, 127, 80, 0.822);
+    margin-top: 80px;
+    padding-bottom: 200px;
+}
+
+main #contents{
+    position: relative;
+    top: -160px;
+}
+

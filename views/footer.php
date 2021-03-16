@@ -41,7 +41,7 @@
        
 
     <!-- Footer 2 think background-color later!-->
-       <div class="py-1 pl-2" style="background-color: #C2B9B0; clear:both;"> 
+       <div class="py-1 pl-2 border-top" style="clear:both;"> 
                 <span class="h7">Copyright&copy;2021PETCARE Corp.</span> 
        
            <div class="float-right">
