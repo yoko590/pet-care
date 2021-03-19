@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+
+/* ** Showcase ** */
+#showcase{
+    border: solid 2px #000000;
+    height: 600px;
+    background-image: url();
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* ** background of Services ** */
+#bg{
+    border: solid 2px #000000;
+    height: 250px;
+    margin-top: 150px;
+}
+
+/* ** #services ** */
+#services{
+    border: solid 2px #ff0000;
+    height: 300px;
+    margin-top: -100px;
+    margin-bottom: 150px;
+}
+
+
+
+/* ** others ** */
+#gallery{
+    border: solid 2px #000000;
+    height: 300px;
+    margin-bottom: 100px;
+}

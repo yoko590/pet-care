@@ -52,6 +52,16 @@ class User extends Database{
          }
      }
 
+     public function getUsername($user_id){
+        $sql = "SELECT id, username FROM accounts WHERE id = $user_id";
+
+        if($result = $this->conn->query($sql)){
+           return $result->fetch_assoc();
+        }else{
+           die("Error retrieving user: " . $this->conn->error);
+        }
+     }
+
      public function updateUser($user_id,$first_name,$last_name,$address,$email,$contact_num){
         $sql ="UPDATE customers SET first_name = '$first_name', last_name = '$last_name', `address` = '$address', email = '$email', contact_number = '$contact_num' WHERE account_id = $user_id";
 

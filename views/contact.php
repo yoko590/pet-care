@@ -11,7 +11,7 @@
 
        <section class="container text-center mx-auto" id="contents">
            <!-- Working Hour -->
-           <div class="row my-5 w-50 mx-auto border-bottom">
+           <div class="row mt-5 mb-5 w-50 mx-auto border-bottom">
                     <h3 class="col-12 font-italic text-center mb-3">- Working Hour -</h3>
                     <div class="col-4">
                         <h7>Monday-Friday</h7>
@@ -30,7 +30,7 @@
             <div class="row">
                 <!--  Form area -->
                 <div class="col-sm-12 col-md-7 col-lg-7">
-                        <h3 class="font-italic text-center">-- Get in Touch --</h3>
+                        <h3 class="font-italic text-center">- Get in Touch -</h3>
                         <form action="" method="post">
                         <table class="table table-borderless">
                             <tr>

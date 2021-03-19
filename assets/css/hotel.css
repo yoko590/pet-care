@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+
+/* **showcase** */
+#showcase{
+    border: solid 2px #000000;
+    height: 600px;
+    background-image: url(../img/hotel_bg.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#showcase p{
+    padding-top:250px;
+}
+
+/* ** reference ** */
+#reference{
+    border: dotted 2px #000000;
+    height: 300px;
+}
+
+/* ** room type ** */
+#room_type{
+    border: dotted 2px #000000;
+}
+
+#room1{
+    border: dotted 2px #ff0000;
+    height: 300px;
+}
+#room2{
+    border: dotted 2px #ff0000;
+    height: 300px;
+}
+#room3{
+    border: dotted 2px #ff0000;
+    height: 300px;
+}

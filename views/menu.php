@@ -16,8 +16,7 @@
 
 <!-- Nav 1 -->
    <nav class="nav1 navbar navbar-expand-md navbar-dark" style="background-color: #000000b4;">
-      <a href="index.php" class="navbar-brand" style="font-family:'Akaya Telivigala', cursive;">Pet Care <i class="fas fa-paw"></i></a>
-
+      
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main_nav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,7 +29,7 @@
                    if(!$_SESSION){
                       echo "<span class='nav-link text-white'>Hello Guest!</span>";
                    }else{
-                      echo "<a href='../views/profile.php' class='nav-link text-white'>Hello " . $_SESSION['username'] . "!</a>";
+                      echo "<a href='../views/profile.php' class='nav-link text-white font-weight-bold font-italic'>Hello " . $_SESSION['username'] . "!</a>";
                    }
                 ?>
             </li>
@@ -40,8 +39,8 @@
              <li class="nav-item mr-3"><a href="../actions/logout.php" class="nav-link text-danger">Log out</a></li>
 
             <!-- sns icons -->
-            <li class="nav-item mr-3"><a href="#" style="font-size:25px;"><i class="fab fa-twitter-square text-white"></i></a></li>
-            <li class="nav-item mr-5"><a href="#" style="font-size:25px;"></i><i class="fab fa-facebook-square text-white"></i></a></li>
+            <li class="nav-item mr-3 mt-3"><a href="#" style="font-size:25px;"><i class="fab fa-twitter-square text-white"></i></a></li>
+            <li class="nav-item mr-5 mt-3"><a href="#" style="font-size:25px;"></i><i class="fab fa-facebook-square text-white"></i></a></li>
         </ul>
       </div>
    </nav>
@@ -49,19 +48,18 @@
 <!-- Nav 2 -->
    <nav class="nav2 navbar navbar-expand-md navbar-light py-3 sticky-top" style="background-color: #edc7b7d0;">
      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto h5" style="font-family:'Montserrat', sans-serif;">
-            <li class="nav-item"><a href="home.php" class="nav-link">Home</a></li>
+        <ul class="navbar-nav h5" style="font-family:'Montserrat', sans-serif;">
+            <li class="nav-item ml-2 mr-5"><a href="index.php" class="navbar-brand" style="font-family:'Akaya Telivigala', cursive; font-size:24px;">Pet Care <i class="fas fa-paw"></i></a></li>
+
+            <li class="nav-item ml-5"><a href="home.php" class="nav-link">Home</a></li>
             <li class="nav-item ml-5"><a href="../views/about.php" class="nav-link">About</a></li>
-            <li class="nav-item ml-5"><a href="../views/hotel.php" class="nav-link">Hotel</a></li>
+            <li class="nav-item ml-5 font-weight-bold font-italic border-bottom"><a href="../views/hotel.php" class="nav-link">Hotel</a></li>
             <li class="nav-item ml-5"><a href="../views/service.php" class="nav-link">Services</a></li>
             <li class="nav-item ml-5"><a href="../views/product.php" class="nav-link">Shop</a></li>
-            <li class="nav-item ml-5"><a href="#" class="nav-link">Gallery</a></li>
+            <li class="nav-item ml-5"><a href="../views/gallery.php" class="nav-link">Gallery</a></li>
             <li class="nav-item ml-5"><a href="../views/contact.php" class="nav-link">Contact</a></li>
         </ul>
     </div>
    </nav>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-</html>
+
