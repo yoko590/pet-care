@@ -12,6 +12,9 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+#about h2{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* hotel area */
 #hotel{
@@ -39,18 +42,12 @@
     font-size: 27px;
 }
 
-/* Advertisement area */
-#ads{
-    margin-bottom: 150px;
-}
-
 /* Product area */
 #shop{
+    border: solid 2px black;
     height: 100%;
     margin-top: 50px;
-    margin-bottom: 100px;
-    border-radius: 5%;
-    /* background-color: rgba(245, 245, 220, 0.568); */
+    margin-bottom: 350px;
 }
 
 #shop p{
@@ -58,20 +55,14 @@
     font-size: 27px;
 }
 
-#shop .article1{
-    /* background-color: rgba(248, 190, 81, 0.637); */
+#shop .article3{
+    width: 30%;
 }
-
-#shop .article2{
-    /* background-color: rgba(230, 231, 168, 0.637); */
-}
-
 
 /* Trivia area */
 #trivia{
     height: 100%;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #trivia p{

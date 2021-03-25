@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* main area */
+
+/* showcase area */
+#showcase{
+    height: 150px;
+    background-color: coral;
+}
+#showcase h3{
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* customer detail area */
+#customer_detail{
+    margin-bottom: 100px;
+}
+
+#button{
+    margin-top: 40px;
+}

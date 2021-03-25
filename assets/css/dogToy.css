@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+
+/* ** Showcase ** */
+#showcase{
+    height:400px;
+    background-image: url(../img/product/dog_toy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#showcase h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 650px;
+    font-weight: bold;
+}
+
+
+/* contents area */
+#contents{
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+/* Ball area */
+#title h4{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 70px;
+}
+
+/* Teddy Bear area */
+#teddy{
+    margin-bottom: 150px;
+}
+
+/* Duck area */
+#duck{
+    margin-bottom: 150px;
+}

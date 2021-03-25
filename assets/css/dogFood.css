@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+
+/* ** Showcase ** */
+#showcase{
+    height:400px;
+    background-image: url(../img/dog-food.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#showcase h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+
+/* contents area */
+#contents{
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+/* product area */
+#product h4{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 70px;
+}
+
+/* description area */
+#description{
+    margin-bottom: 50px;
+}
+
+#image{
+    margin-bottom: 50px;
+}

@@ -9,7 +9,7 @@ class User extends Database{
          if($this->conn->query($sql1)){
              $sql2 = "INSERT INTO customers(first_name,last_name,`address`,email,contact_number,account_id) VALUES ('$first_name','$last_name','$address','$email','$contact_num',". $this->conn->insert_id . ")";
                 if($this->conn->query($sql2)){
-                   header("location: index.php");
+                   header("location: ../views/");
                    exit;
                 }else{
                    die("Error creating user: " . $this->conn->error);
@@ -84,9 +84,34 @@ class User extends Database{
          }
      }
 
+     public function createInquiry($first_name,$last_name,$email,$inquiry){
+         $inquiry = $this->conn->real_escape_string($inquiry);
 
+         $sql= "INSERT INTO inquiries(first_name, last_name,email,inquiry) VALUES ('$first_name','$last_name','$email','$inquiry')";
 
+         if($this->conn->query($sql)){
+            header("location: ../views/contact.php");
+            exit;
+         }else{
+            die("Error creating inquiry: " . $this->conn->error);
+         }
+     }
 
+   public function haveReservation($user_id){
+      $sql = "SELECT *
+              FROM reservations
+              WHERE customer_id = $user_id";
+
+      if($result = $this->conn->query($sql)){
+         if($result->num_rows > 0){
+            return true;
+         }else{
+            return false;
+         }
+      }else{
+          die("Error retrieving reservations" . $this->conn->error);
+      }
+  }
 }
 
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,16 +28,17 @@
                 <?php
                    session_start();
                    if(!$_SESSION){
-                      echo "<span class='nav-link text-white'>Hello Guest!</span>";
+                     echo "<span class='nav-link text-white'>Hello Guest!</span>";
+                     echo "<li class='nav-item mr-3'><a href='../views/index.php' class='nav-link'>Login</a></li>";
+                     echo "<li class='nav-item mr-3'><a href='../views/register.php' class='nav-link '>Register</a></li>";
                    }else{
-                      echo "<a href='../views/profile.php' class='nav-link text-white font-weight-bold font-italic'>Hello " . $_SESSION['username'] . "!</a>";
+                     echo "<a href='../views/profile.php' class='nav-link text-white font-weight-bold font-italic'>Hello " . $_SESSION['username'] . "!</a>";
+                     echo "<li class='nav-item mr-5'><a href='../views/insideCart.php' class='nav-link'><i class='fas fa-shopping-cart btn btn-outline-light'style='font-size:18px;'></i></a></li>";
                    }
                 ?>
             </li>
-            <li class="nav-item mr-3"><a href="../views/index.php" class="nav-link">Login</a></li>
-            <li class="nav-item mr-3"><a href="../views/register.php" class="nav-link ">Register</a></li>
-            <li class="nav-item mr-5"><a href="../views/confirmaton.php" class="nav-link"><i class="fas fa-shopping-cart btn btn-outline-light"style="font-size:18px;"></i></a></li>
-             <li class="nav-item mr-3"><a href="../actions/logout.php" class="nav-link text-danger">Log out</a></li>
+            
+            <li class="nav-item mr-3"><a href="../actions/logout.php" class="nav-link text-danger">Log out</a></li>
 
             <!-- sns icons -->
             <li class="nav-item mr-3 mt-3"><a href="#" style="font-size:25px;"><i class="fab fa-twitter-square text-white"></i></a></li>
@@ -49,7 +51,7 @@
    <nav class="nav2 navbar navbar-expand-md navbar-light py-3 sticky-top" style="background-color: #edc7b7d0;">
      <div class="collapse navbar-collapse">
         <ul class="navbar-nav h5" style="font-family:'Montserrat', sans-serif;">
-            <li class="nav-item ml-2 mr-5"><a href="index.php" class="navbar-brand" style="font-family:'Akaya Telivigala', cursive; font-size:24px;">Pet Care <i class="fas fa-paw"></i></a></li>
+            <li class="nav-item ml-2 mr-5"><a href="../views/home.php" class="navbar-brand" style="font-family:'Akaya Telivigala', cursive; font-size:24px;">Pet Care <i class="fas fa-paw"></i></a></li>
 
             <li class="nav-item ml-5"><a href="home.php" class="nav-link">Home</a></li>
             <li class="nav-item ml-5"><a href="../views/about.php" class="nav-link">About</a></li>
@@ -61,5 +63,5 @@
         </ul>
     </div>
    </nav>
-
+</head>
 

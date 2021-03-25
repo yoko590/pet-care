@@ -13,3 +13,23 @@
     position: relative;
     top: -160px;
 }
+
+#contents .row{
+    margin-top: 100px;
+}
+
+#contents .img2 img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/* team area */
+#team{
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+#team h3{
+    font-family:'Akaya Telivigala', cursive;
+    font-size: 35px;
+    margin-bottom: 50px;
+}

@@ -26,7 +26,7 @@
              <label for="confirm_password">Confirm Password</label>
              <input type="password" name="confirm_password" id="confirm_password" class="form-control mb-3" placeholder="Confirm Password">
 
-             <button type="submit" class="form-control btn btn-outline-warning mb-3">Update</button>
+             <button type="submit" class="form-control btn btn-warning mb-3">Update</button>
          </form>
 
              <a href="../views/profile.php" class="btn btn-outline-danger">Cancel</a>

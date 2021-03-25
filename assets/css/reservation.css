@@ -16,11 +16,31 @@
     padding-top:250px;
 }
 
+/* reservation area */
 #reservation{
-    border: dotted 2px #000000;
     margin-top: 100px;
-    
 }
 
+#info{
+    padding-top: 60px;
+}
+#info h5{
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#form{
+    /* margin-left: 5px; */
+}
+#form h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* address area */
+#address{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
 
 

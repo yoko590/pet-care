@@ -14,30 +14,12 @@
 </head>
 
 <body>
-    <!-- Need to change the bg-color later -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main_nav">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse ml-auto" id="main_nav">
-            <ul class="navbar-nav ml-auto pt-2">
-                <li class="nav-item mr-4"><a href="../views/about.php" class="nav-link text-white">About us</a></li>
-                <li class="nav-item mr-4"><a href="../views/contact.php" class="nav-link text-white">Contact</a></li>
-                
-                <!-- sns icons -->
-                <li class="nav-item mr-3"><a href="#" style="font-size:25px;"><i class="fab fa-twitter-square text-white"></i></a></li>
-                <li class="nav-item mr-5"><a href="#" style="font-size:25px;"></i><i class="fab fa-facebook-square text-white"></i></a></li>
-            </ul>
-        </div>
-    </nav>
-
    <main class="w-50 mx-auto">
-        <p class="display-4 text-center mb-5" style="font-family:'Akaya Telivigala', cursive;">Pet Care <i class="fas fa-paw"></i></p>
+        <h1 class="display-4 text-center mb-5" style="font-family:'Akaya Telivigala', cursive;">Pet Care <i class="fas fa-paw"></i></h1>
 
        <div class="card text-center p-2">
            <div class="card-body">
-             <p class="lead pb-3">Login Here <i class="fas fa-sign-in-alt"></i></p>
+             <h3 class="lead pb-3">Login Here <i class="fas fa-sign-in-alt"></i></h3>
 
              <form action="../actions/login.php" method="post">
                   <div class="input-group mb-3 w-50 mx-auto">
@@ -58,8 +40,7 @@
 
 
                   <p class="font-italic">
-                      <a href="../views/register.php" class="text-white font-weight-bold small mr-3">CREATE ACCOUNT</a>
-                      <a href="../views/home.php" class="text-white font-weight-bold small">Click Here to Skip!</a>
+                      <a href="../views/register.php" class="text-white font-weight-bold small text-center">CREATE ACCOUNT</a>
                   </p>
             
              </form>

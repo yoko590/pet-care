@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+
+/* ** Showcase ** */
+#showcase{
+    height: 600px;
+    background-image: url(../img/product/dog_food_frame.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#showcase p{
+    padding-top: 250px;
+}
+
+/* products area */
+#products{
+    height: 1500px;
+    background-image: url(../img/product/product_bg.jpg);
+    /* background-attachment: fixed; */
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+#product_bg{
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin-top: 100px;
+    margin-bottom: 630px;
+}
+#product_bg h3{
+    font-family:'Akaya Telivigala', cursive;
+    font-size: 35px;
+}
+
+/* catch phrase area */
+#catch_phrase{
+    background-color: rgba(255, 166, 0, 0.596);
+}
+
+

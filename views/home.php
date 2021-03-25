@@ -6,9 +6,9 @@
        <!-- Showcase area -->
          <section id="about">
             <div class="container text-center">
-               <p class="display-4 mb-5 border-bottom">We care for your pets</p>
-               <p class="lead mb-4 w-50 mx-auto">From the time our friends sniff their way through the door until they wag their tails out in the afternoon, we cater to their nature.</p>
-               <a href="../views/about.php" class="btn btn-outline-dark rounded-pill">About Us</a>
+               <h2 class="display-4 mb-5 border-bottom w-75 mx-auto">We care for your pets</h2>
+               <p class="mb-4 w-50 mx-auto font-italic" style="font-size:20px;">From the time our friends sniff their way through the door until they wag their tails out in the afternoon, we cater to their nature.</p>
+               <a href="../views/about.php" class="btn btn-outline-light rounded-pill p-2">About Us</a>
             </div>
          </section>
 
@@ -50,7 +50,7 @@
                             <div class="card-body">
                                  <h5 class="lead small">Full-Service Bath & Styling + Nail Trim </h5>
 
-                                 <a href="" class="text-muted d-block">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
+                                 <a href="../views/fullGrooming.php" class="text-muted d-block">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                               <div class="card-body">
                                  <h5 class="lead small font-italic">Included in Full-Service Bath</h5>
 
-                                 <a href="" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
+                                 <a href="../views/bath.php" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
                               </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                               <div class="card-body">
                                     <h5 class="lead small font-italic">Included in Cut and Style</h5>
 
-                                    <a href="" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
+                                    <a href="../views/styling.php" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
                               </div>
                            </div>
                      </div>
@@ -95,19 +95,9 @@
             </div>
          </section>
 
-      <!-- Advertisement area -->
-         <section class="container text-center" id="ads">
-            <div class="jumbotron bg-warning">
-                <p class="display-4">Register Now and Get <span class="text-danger">15%</span> Discount!</p>
-                <p class="h4 font-italic mb-4">Don’t miss this pleasant opportunity!</p>
-
-                <a href="../views/register.php" class="btn btn-dark">Register</a>
-            </div>
-         </section>
-
       <!-- Products area -->
          <section class="row mx-auto border rounded-pill" id="shop">
-            <p class="col-12 text-center">- Our Products -</p>
+            <p class="col-12 text-center mb-5">- Our Products -</p>
 
             <article class="col-sm-12 col-md-4 col-lg-4 text-center">
                <div class="card article1">
@@ -118,7 +108,7 @@
                   <div class="card-body">
                       <h3 class="mb-3">Dog Food</h3>
                       <h5 class="lead">Healthy & Delicious Treat for your cute fluffy friend!</h5>
-                      <a href="" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
+                      <a href="../views/dogFood.php" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
                   </div>
                </div>
             </article>
@@ -140,7 +130,21 @@
                   <div class="card-body">
                      <h3 class="mb-3">Dog Toy</h3>
                      <h5 class="lead">Looking for new toys for your pets? Here you are!</h5>
-                     <a href="" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
+                     <a href="../views/dogToy.php" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
+                  </div>
+               </div>
+            </article>
+
+            <article class="col-12 mt-5 text-center">
+               <div class="card article3 mx-auto">
+                  <div class="card-img-top mb-4">
+                     <i class="fas fa-fish" style="font-size:120px;"></i>
+                  </div>
+
+                  <div class="card-body">
+                     <h3 class="mb-3">Cat Food</h3>
+                     <h5 class="lead">Natural and healthy food for your little buddy! </h5>
+                     <a href="../views/catFood.php" class="text-muted">See Details <i class="fas fa-arrow-alt-circle-right"></i> </a>
                   </div>
                </div>
             </article>

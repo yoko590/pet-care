@@ -1,7 +1,6 @@
 
 <body>
-    <!-- Footer 1 (might change later 1&2)-->
-    <footer class="row bg-dark text-white pt-3">
+    <footer class="row bg-dark text-white pt-5">
       
        <a href="index.php" class="col-sm-12 col-md-4 col-lg-4 text-white text-decoration-none p-5" style="font-size:30px; font-family:'Akaya Telivigala', cursive;">Pet Care <i class="fas fa-paw"></i></a>
 
@@ -18,10 +17,10 @@
 
        <section class="col-sm-4 col-md-2 col-md-2">
           <h6 class="mb-3" style="text-decoration:underline;">Menu</h6>
-          <p ><a href="home.php" class="mr-3 text-white">Home</a> <a href="service.php" class="text-white">Services</a></p> 
-          <p><a href="about.php" class="mr-4 text-white">About</a><a href="product.php" class="text-white">Shop</a></p>
-          <p> <a href="about.php" class="mr-4 text-white">Hotel</a><a href="product.php" class="text-white">Gallery</a></p>
-          <a href="contact.php" class="mr-4 text-white">Contact</a>
+          <p ><a href="../views/home.php" class="mr-3 text-white">Home</a> <a href="../views/service.php" class="text-white">Services</a></p> 
+          <p><a href="../views/about.php" class="mr-4 text-white">About</a><a href="../views/product.php" class="text-white">Shop</a></p>
+          <p> <a href="../views/hotel.php" class="mr-4 text-white">Hotel</a><a href="../views/gallery.php" class="text-white">Gallery</a></p>
+          <a href="../views/contact.php" class="mr-4 text-white">Contact</a>
           <!-- home   service-->
           <!-- about  shop-->
           <!-- hotel  gallery-->  

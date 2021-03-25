@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* main area */
+
+/* showcase area */
+#showcase .jumbotron{
+     background-color: coral; 
+} 
+#showcase h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* details area */
+#details{
+    margin-bottom: 200px;
+}
+
+#customer_detail{
+    margin-bottom: 150px;
+}
+/* #item_detail{
+    border: solid 2px gray;
+} */

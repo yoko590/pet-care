@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* main area */
+
+/* showcase area */
+#showcase .jumbotron{
+     background-color: coral; 
+} 
+#showcase h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#contents{
+    border: gray 2px solid;
+    height: 100px;
+    margin-bottom: 100px;
+}

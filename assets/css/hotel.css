@@ -1,44 +1,94 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    /* margin: 0; */
 }
 
 /* Main area */
 
 /* **showcase** */
 #showcase{
-    border: solid 2px #000000;
     height: 600px;
-    background-image: url(../img/hotel_bg.jpg);
+    background-image: url(../img/hotel/hotel_bg.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-repeat:no-repeat;
+    margin-bottom: 80px;
 }
 
 #showcase p{
-    padding-top:250px;
+    padding-top: 250px;
 }
 
 /* ** reference ** */
 #reference{
-    border: dotted 2px #000000;
-    height: 300px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#reference h3{
+    font-family:'Akaya Telivigala', cursive ;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+#reference h4{
+    font-size: 45px;
 }
 
 /* ** room type ** */
-#room_type{
-    border: dotted 2px #000000;
+#room_type h3{
+    font-family:'Akaya Telivigala', cursive ;
+    font-size: 35px;
+    margin-bottom: 70px;
 }
 
+/* Room1 */
 #room1{
-    border: dotted 2px #ff0000;
-    height: 300px;
+    background-color: rgba(255, 228, 196, 0.363);
+    height: 500px;
+    margin-bottom: 50px;
 }
+#room1 .card-header h4{
+    font-family:'Akaya Telivigala', cursive ;
+}
+
+/* Room2 */
 #room2{
-    border: dotted 2px #ff0000;
-    height: 300px;
+    height: 500px;
+    margin-bottom: 50px;
 }
+
+#room2 .card-header h4{
+    font-family:'Akaya Telivigala', cursive ;
+}
+
+/* Room3 */
 #room3{
-    border: dotted 2px #ff0000;
-    height: 300px;
+    background-color: rgba(255, 228, 196, 0.623);
+    height: 450px;
+    margin-bottom: 150px;
+}
+
+#room3 .card-header h4{
+    font-family:'Akaya Telivigala', cursive ;
+}
+
+#room_type a{
+   position:fixed;
+   bottom: 50px;
+   right: 10px;
+}
+
+/* park area */
+#park{
+    height: 700px;
+    /* width: 100%; */
+    background-image: url(../img/hotel/dog_park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#park .bg{
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.281);
 }

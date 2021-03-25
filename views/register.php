@@ -21,7 +21,7 @@
     <main class="container mt-4">
         <div class="jumbotron rounded-pill mt-5 text-white" style="background-color:#e7717dbe;">
             <p class="display-4  text-center">Hello Guest ! <i class="far fa-smile"></i></p>
-            <p class="h4 lead mb-5 text-center">Please fill out this form to join us !</p>
+            <p class="h4 lead mb-3 text-center">Please fill out this form to join us !</p>
         </div>
 
         <div class="card w-50 mx-auto mb-5">

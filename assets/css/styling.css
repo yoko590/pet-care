@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main area */
+
+/* showcase area */
+#showcase{
+    height: 400px;
+    background-image: url(../img/service/scissor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#title{
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+/* content area */
+/* content1 */
+#content1 .container{
+    margin-top: 50px;
+}
+#content1 h3{
+    font-family: 'Montserrat', sans-serif;
+}
+#content1 h5{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+}
+
+/* content2 */
+#content2{
+    margin-top: 100px;
+    background-color: beige;
+}
+#content2 h5{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+}
+
+/* content3 */
+#content3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#content3 h5{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+}
+
+/* reference area */
+#references{
+    margin-bottom: 130px;
+}
+#references .card-header h3{
+    font-family: 'Montserrat', sans-serif;
+}
+#references p{
+    font-size: 22px;
+}
+#references a{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+}
