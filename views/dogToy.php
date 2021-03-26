@@ -36,7 +36,7 @@ $dog_toy_list = $product->getDogToy();
                         <p class="pb-3 w-75 mx-auto">Keep your pet busy and having fun with the Wobble Wag Giggle Ball. Its 6 clutch pockets provide numerous opportunities for your dog to grab, carry, and toss the toy and the more he does the more giggles and fun sounds are emitted to amuse your pet.</p>
 
                         <form action="../actions/addCart.php" method="post">
-                            <select name="products" id="dog_toy" class="form-control mb-3">
+                            <select name="products" id="dog_toy" class="form-control mb-3" required>
                                 <option value="" hidden>Select Item</option>
                                 <!-- PHP HERE -->
                                 <?php
@@ -48,7 +48,7 @@ $dog_toy_list = $product->getDogToy();
                                     }
                                 ?>
                             </select>
-                            <input type="number" class="form-control w-50 mb-4" placeholder="Number" name="product_num">
+                            <input type="number" class="form-control w-50 mb-4" placeholder="Quantity" name="product_num" required>
                             
                             <button type="submit" class="btn btn-outline-primary">Add to Cart <i class="fas fa-cart-plus"></i></button>
                         </form>

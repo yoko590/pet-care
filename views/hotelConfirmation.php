@@ -90,7 +90,7 @@ $customer_details = $hotel->getCustomer($_SESSION['user_id']);
                     <tr>
                         <td colspan="2" class="text-center font-weight-bold bg-light">
                             <span class="mr-3" style="font-size:20px;">Total Price : </span> <span style="font-size:28px;">$<?=$total_amount ?></span>
-                            <a href="../actions/deleteReservation.php?reservation_id=<?=$customer_details['id']?>" class="btn btn-outline-danger ml-5">Cancel Reservation</a>
+                            <a href="../actions/deleteReservation.php?reservation_id=<?=$customer_details['id']?>" class="btn btn-outline-danger ml-5"><i class="far fa-window-close"></i> Cancel Reservation</a>
                         </td>
                     </tr>
                 </tbody>

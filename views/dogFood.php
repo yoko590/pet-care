@@ -50,7 +50,7 @@ $dog_food_list = $product->getDogFood();
                         </table>
 
                         <form action="../actions/addCart.php" method="post">
-                            <select name="products" id="dog_food" class="form-control mb-3">
+                            <select name="products" id="dog_food" class="form-control mb-3" required>
                                 <option value="" hidden>Select Item</option>
                                 <!-- PHP HERE -->
                                 <?php
@@ -62,7 +62,7 @@ $dog_food_list = $product->getDogFood();
                                     }
                                 ?>
                             </select>
-                            <input type="number" class="form-control w-50 mb-4" placeholder="Number" name="product_num">
+                            <input type="number" class="form-control w-50 mb-4" placeholder="Quantity" name="product_num" required>
                             
                             
                             

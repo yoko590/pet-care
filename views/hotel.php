@@ -7,7 +7,7 @@
       <!-- showcase area -->
         <section class="text-center text-dark" id="showcase">
             <p class="display-4 font-weight-bold">Pet Hotel</p>
-            <h3 class="lead">Cozy and Relaxing room for your lovely pet..</h3>
+            <h3 class="lead font-italic">Cozy and Relaxing room for your lovely pet..</h3>
         </section>
 
       <!-- reference area -->

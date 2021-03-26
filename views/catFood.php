@@ -45,7 +45,7 @@ $cat_food_list = $product->getCatFood();
                         </table>
                         
                         <form action="../actions/addCart.php" method="post">
-                            <select name="products" id="cat_food" class="form-control mb-4">
+                            <select name="products" id="cat_food" class="form-control mb-4" required>
                                 <option value="" hidden>Select Item</option>
                                 <!-- PHP HERE -->
                                 <?php
@@ -58,7 +58,7 @@ $cat_food_list = $product->getCatFood();
                                 ?>
                             </select>
 
-                            <input type="number" class="form-control w-50 mb-4" placeholder="Number" name="product_num">
+                            <input type="number" class="form-control w-50 mb-4" placeholder="Quantity" name="product_num" required>
                             
                             <button type="submit" class="btn btn-outline-primary">Add to Cart <i class="fas fa-cart-plus"></i></button>
                         </form>

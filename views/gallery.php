@@ -3,9 +3,9 @@
 
 <body>
    <main>
-       <section class="container text-center text-muted rounded-pill p-5" id="showcase">
-            <p class="display-4 pt-4">Photo Gallery</p>
-            <h6 class="lead">Have a peek and then come on in.</h6>
+       <section class="container text-center text-warning rounded-pill p-5" id="showcase">
+            <p class="display-4 pt-4 font-weight-bold">Photo Gallery</p>
+            <h6 class="lead font-italic">Have a peek and then come on in.</h6>
        </section>
 
       <div class="row container mx-auto" id="gallery">

@@ -14,7 +14,7 @@ $service_list = $hotel->getServices();
 
     <main>
       <!-- Showcases area -->
-        <section class="text-center text-dark" id="showcase">
+        <section class="text-center text-white" id="showcase">
                 <p class="display-4 font-weight-bold">Reservation</p>
                 <h6 class="lead font-italic">We look forward to seeing you soon!</h6>
         </section>

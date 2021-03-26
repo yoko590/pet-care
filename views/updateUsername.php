@@ -5,6 +5,8 @@
 
         $user = new User;
         $user_details = $user->getUser($_SESSION['user_id']);
+        $user_details2 = $user->getUsername($_SESSION['user_id']);
+        
      ?>
 
     <main class="container w-50 my-5">
@@ -18,7 +20,7 @@
              <input type="hidden" name="user_id" value="<?= $user_details['id']?>">
              
              <label for="username">New Username</label>
-             <input type="text" name="username" id="username" class="form-control mb-3" placeholder="Username">
+             <input type="text" name="username" id="username" class="form-control mb-3" value="<?= $user_details2['username']?>">
 
              <label for="password">New Password</label>
              <input type="password" name="password" id="password" class="form-control mb-3" placeholder="Password">

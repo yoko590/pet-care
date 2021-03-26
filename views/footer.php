@@ -2,7 +2,7 @@
 <body>
     <footer class="row bg-dark text-white pt-5">
       
-       <a href="index.php" class="col-sm-12 col-md-4 col-lg-4 text-white text-decoration-none p-5" style="font-size:30px; font-family:'Akaya Telivigala', cursive;">Pet Care <i class="fas fa-paw"></i></a>
+       <a href="../views/home.php" class="col-sm-12 col-md-4 col-lg-4 text-white text-decoration-none p-5" style="font-size:30px; font-family:'Akaya Telivigala', cursive;">Pet Care <i class="fas fa-paw"></i></a>
 
        <section class="col-sm-4 col-md-3 col-md-3">
           <h6 class="mb-3"style="text-decoration:underline;">Contact Info</h6>

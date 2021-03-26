@@ -26,7 +26,7 @@ $added_cart = $product->addedCart($_SESSION['user_id']);
                     <thead class="thead-dark">
                         <tr>
                             <th>Name</th>
-                            <th>Amount</th>
+                            <th>Quantity</th>
                             <th>Price</th>
                             <th></th>
                         </tr>
@@ -44,7 +44,7 @@ $added_cart = $product->addedCart($_SESSION['user_id']);
                             <td><?= $item['name']?></td>
                             <td class="font-weight-bold" style="font-size:20px;"><?= $item['product_number']?></td>
                             <td class="font-weight-bold" style="font-size:22px;">$ <?= $price_total?></td>
-                            <td><a href="../actions/deleteProduct.php?cart_id=<?=$item['id']?>" class="btn btn-outline-danger"><i class="far fa-window-close"></i> Cancel Reservation</a></td>
+                            <td><a href="../actions/deleteProduct.php?cart_id=<?=$item['id']?>" class="btn btn-outline-danger"><i class="far fa-window-close"></i> Cancel</a></td>
                         </tr>
                     </tbody>
 
